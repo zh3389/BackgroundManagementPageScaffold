@@ -1,0 +1,22 @@
+{
+  "status": 0,
+  "msg": "",
+  "data": {
+    "pages": [
+      {
+        "label": "Home",
+        "url": "/",
+        "redirect": "/site"
+      },
+      {
+        "children": [
+          {
+            "label": "用户管理",
+            "schemaApi": "jsonp:/pages/adminuser.js?callback=jsonpCallback",
+            "url": "/site"
+          }
+        ]
+      }
+    ]
+  }
+}
